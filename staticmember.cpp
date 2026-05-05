@@ -3,6 +3,17 @@ using namespace std;
 
 class Mahasiswa {
 
+    public:
+          static int nim;
+          int id;
+          string nama;
+
+          void setID();
+          void printALL();
+
+          Mahasiswa(string pnama) :nama(pnama) {
+            setID();
+          }
 };
 
 
