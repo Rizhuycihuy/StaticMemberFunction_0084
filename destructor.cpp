@@ -19,3 +19,10 @@ angka::angka(int i){
   arr = new int[i];
   isidata();
 }
+
+angka::~angka(){
+  cout <<endl;
+  cetakdata();
+  delete[] arr;
+  cout << "alamat sudah di relase" << endl;
+}
