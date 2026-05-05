@@ -5,3 +5,7 @@ class mahasiswa {
   public:
         mahasiswa();
 };
+
+mahasiswa::mahasiswa(){
+  cout << "constructor terpanggil" << endl;
+}
