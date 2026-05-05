@@ -7,7 +7,7 @@ class mahasiswa{
 
           static int nim;
   public:
-  
+
           int id;
           string nama;
 
@@ -26,4 +26,6 @@ class mahasiswa{
             setID();
           };
 };
+
+int mahasiswa::nim = 0;
 
