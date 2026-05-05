@@ -22,3 +22,9 @@ void Mahasiswa::setID() {
     id = ++nim;
 };
 
+void Mahasiswa::printALL() {
+    cout << "ID : " << id << endl;
+    cout << "Nama : " << nama << endl;
+    cout << endl;
+};
+
