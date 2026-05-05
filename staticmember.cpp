@@ -16,5 +16,7 @@ class Mahasiswa {
           }
 };
 
+int Mahasiswa::nim = 10;
+
 
 
